@@ -145,7 +145,6 @@ uv run python -m app.mcp_agent --trace "AIE2026の講座の宿題にある「3�
 uv run python -m app.mcp_agent --list-tools
 uv run python -m app.mcp_agent --trace "https://modelcontextprotocol.io/ の冒頭を日本語で3行に要約して"
 ```
-
 - `uvx` は、公開されているプログラムを取得して実行するコマンドです。fetch サーバーは、自分の Codespaces の中で動きます。1 つ目のコマンドは、初回だけ 10 秒ほどかかります
 - `==2026.11.11` は、使う版の指定です。外部のサーバーは更新で動きが変わることがあるので、この講座では版を固定します
 - `--no-readability-js` は、ページ本文の取り出しを Python だけで行う指定です
